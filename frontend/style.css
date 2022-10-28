@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    height: 40px;
+    font-size: 15px;
+    padding: 5px ;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.list {
+    background-color: white;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: auto;
+    margin-bottom: 50px;
+}
+
+
+
